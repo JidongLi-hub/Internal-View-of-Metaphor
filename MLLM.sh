@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4,5,6,7 vllm serve /data/models/Qwen2.5-VL-72B-Instruct --dtype auto --port 7777 --api-key 00000000 --gpu-memory-utilization 0.9 --tensor-parallel-size 4 --allowed-local-media-path /model/fangly/mllm/ljd/dataset

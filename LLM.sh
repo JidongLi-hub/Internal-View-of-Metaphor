@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=5 vllm serve /data/models/Qwen-Qwen3-32B --dtype auto --port 8888 --api-key 00000000 --gpu-memory-utilization 0.9 
